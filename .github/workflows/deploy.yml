@@ -27,7 +27,7 @@ jobs:
         source: "./*"
         target: "/var/www/html/api"
 
-    - name: Restart Apache
+    - name: Restart apache2
       uses: appleboy/ssh-action@v0.1.5
       with:
         host: ${{ secrets.SERVER_IP }}
