@@ -25,7 +25,7 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_SSH_KEY }}
         source: "./*"
-        target: "/var/www/html/saikou"
+        target: "/var/www/html/api/site-saikou"
 
     # - name: Restart apache2
     #   uses: appleboy/ssh-action@v0.1.5
